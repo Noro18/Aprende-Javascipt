@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Functions</h1>
+<h2>Callback Functions</h2>
+
+<p>The result of the calculation is:</p>
+<p id="demo">NOhting</p>
+<button class="button">click to change</button>
+
+<script>
+const btn = document.querySelector(".button")
+
+function myDisplayer(something) {
+  document.getElementById("demo").innerHTML = something;
+}
+
+function myCalculator(num1, num2, myCallback) {
+  let sum = num1 + num2;
+  myCallback(sum);
+}
+
+
+
+btn.addEventListener("click", myCalculator(1, 3, myDisplayer))
+
+
+</script>
+
+</body>
+</html>

@@ -28,3 +28,7 @@ Event loops mak core husi asynchronous programming iha javascript nia
 4. **MicroTask Queue**: queue ne'ebe nia priority boot liu bahkan husi call back queue, tanba iha ne function `promises` no  `async/await` rai iha ne'ebe tanba logic ne'ebe critical husi coding ida nian sempre uza buat rua ne'e
 
 5. **Event Loop**: Nia mak kontrola tomak process sira hanesan hare call stack mamuk ga lae, saida saida mak hein hela iha callback queue
+
+## Promises
+
+Check iha Promises.js
